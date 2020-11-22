@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400;600&family=Noto+Serif:wght@700&family=Overpass:ital,wght@0,200;0,300;0,400;0,700;1,400&display=swap");
+
+body {
+  font-family: "Overpass", sans-serif;
+}
+
+h1 {
+  font-family: "Noto Serif", serif;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Martel Sans", sans-serif;
+}
+
+/* Animation h1 */
+@keyframes animationgradienttitle {
+  0% {
+    background-position: 0 1600px;
+  }
+  100% {
+    background-position: 1600px 0;
+  }
+}
+
+.animatedH1 {
+  background: -webkit-linear-gradient(left, #159957, #155799, #159957);
+  background-size: 1600px 200px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation-duration: 3s;
+  animation-name: animationgradienttitle;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+/* Animation h1 */
