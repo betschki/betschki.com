@@ -43,12 +43,7 @@ export default function Home() {
                 velit nisi ad. Velit velit proident occaecat enim incididunt
                 fugiat occaecat duis dolore nisi fugiat non.
               </p>
-              <Button
-                className="mt-3"
-                outline
-                color="info"
-                onClick={(location.href = "mailto:j.betschki@gmail.com")}
-              >
+              <Button className="mt-3" outline color="info">
                 Send me an email!
               </Button>
               <div className="mt-5">
