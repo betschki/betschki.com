@@ -14,13 +14,6 @@ app.get('/', (req, res) => {
 app.post('/', (req, res) => {
     let content = req.body.Content
     let eventName = req.body.EventName
-    let order = content.order
-    let contract = content.contract
-    let customer = content.customer
-    let order_status = content.order_status
-    let contract_status = content.contract_status
-    let contract_tariff = content.contract_tariff
-    let contract_product = content.contract_product
 
     console.log(eventServices[eventName](content))
     res.send("Ok")
